@@ -1,0 +1,134 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: black;
+    margin: 5px 0;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #222;
+    border: 3px solid #fff;
+    border-radius: 50px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li{
+    list-style: none;
+}
+body{
+    background-size: cover;
+    background: url(../Img/e5be664406a1a134db63a2a6dec334d7.jpg) no-repeat fixed center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.background_photo{
+    position: fixed;
+}
+
+.block{
+    top: 75px;
+    position: relative;
+    margin: 0 auto;
+    width: 1440px;
+    background-color: #272727;
+    height: 1800px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* Header */
+.header{
+    max-width: 1200px;
+}
+
+.header_wrapper{
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 0 35px 0;
+}
+
+.nav_list{
+    display: flex;
+
+}
+.nav_list li a{
+    margin-left: 70px;
+    color: #FF652F ;
+    transition: .3s;
+    cursor: pointer;
+}
+.nav_list li a:hover{
+    color: #FFE400;
+}
+.nav_list li:nth-child(1){
+    margin-left: 0;
+}
+
+.search input{
+    width: 264px;
+    background: #6e6e6e url(/Img/free-icon-loupe-470474.png) no-repeat 240px 3px;
+    border: none;
+    height: 22px;
+    outline: none;
+    color: white;
+}
+
+.line{
+    height: 2px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #6e6e6e;
+}
+/* MAIN */
+
+.info{
+    padding: 50px 100px;
+    display: flex;
+}
+.photo{
+    width: 150px;
+    height: 200px;
+    background-color: grey;
+}
+.person_data{
+    margin: 35px 0 0 25px;
+    color: wheat;
+}
