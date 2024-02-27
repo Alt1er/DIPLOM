@@ -51,7 +51,7 @@
         <?= getErrorMessage('emailBad')?>
 
         <div class="box">
-            <a href="index.html">Повернутись на головну</a>
+            <a href="index.php">Повернутись на головну</a>
         </div>
 
 

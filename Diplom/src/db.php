@@ -4,6 +4,7 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 $dbName = "Diplom";
+$secretW = "8732505yuiindsgeio9";
 
 $connection = mysqli_connect($servername, $username, $password, $dbName);
 

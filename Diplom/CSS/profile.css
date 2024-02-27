@@ -50,7 +50,7 @@ ul li{
 body{
     background-size: cover;
     background: url(../Img/e5be664406a1a134db63a2a6dec334d7.jpg) no-repeat fixed center;
-    color: white;
+    /* color: white; */
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     margin: 0;
@@ -128,7 +128,12 @@ body{
     height: 200px;
     background-color: grey;
 }
-.person_data{
+.person_data{   
     margin: 35px 0 0 25px;
-    color: wheat;
+    color: rgb(248, 171, 28);
+}
+
+.person_data p{
+    margin-top: 10px;
+    color: #ffffff;
 }
